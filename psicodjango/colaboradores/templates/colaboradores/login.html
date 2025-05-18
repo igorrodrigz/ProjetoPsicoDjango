@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+  <h2>Login do Colaborador</h2>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.non_field_errors }}
+    <div>
+      <label for="id_username">CPF:</label>
+      <input type="text" name="username" autofocus required id="id_username">
+    </div>
+    <div>
+      <label for="id_password">Senha:</label>
+      <input type="password" name="password" required id="id_password">
+    </div>
+    <button type="submit">Entrar</button>
+  </form>
+{% endblock %}

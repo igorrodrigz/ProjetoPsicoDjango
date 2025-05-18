@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+  <h2>Bem-vindo, {{ user.nome }}!</h2>
+  <p>Você está logado como colaborador.</p>
+  <p>Aqui você poderá preencher formulários e acessar funcionalidades exclusivas.</p>
+  <p><a href="{% url 'questionario_colaborador' %}">Preencher questionário</a></p>
+  <a href="{% url 'logout_colaborador' %}">Sair</a>
+{% endblock %}
