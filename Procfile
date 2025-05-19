@@ -1,0 +1,1 @@
+gunicorn psicodjango.psicodjango.wsgi:application
