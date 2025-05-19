@@ -1,5 +1,5 @@
 from django.db import models
-from empresas.models import Empresa
+from psicodjango.empresas.models import Empresa
 
 # Create your models here.
 
