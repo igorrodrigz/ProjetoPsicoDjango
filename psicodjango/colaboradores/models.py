@@ -1,6 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import AbstractUser, BaseUserManager
-from grupos.models import Grupo
+from psicodjango.grupos.models import Grupo
 from django.contrib.auth import get_user_model
 
 class ColaboradorManager(BaseUserManager):
