@@ -38,9 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'colaboradores',
-    'empresas',
-    'grupos',
+    'psicodjango.colaboradores',
+    'psicodjango.empresas',
+    'psicodjango.grupos',
 ]
 
 MIDDLEWARE = [
@@ -117,7 +117,7 @@ AUTH_USER_MODEL = 'colaboradores.Colaborador'
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'pt-br'
 
 TIME_ZONE = 'UTC'
 
