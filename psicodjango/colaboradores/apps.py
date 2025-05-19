@@ -6,4 +6,4 @@ class ColaboradoresConfig(AppConfig):
     name = 'psicodjango.colaboradores'
 
     def ready(self):
-        import colaboradores.signals
+        import psicodjango.colaboradores.signals
